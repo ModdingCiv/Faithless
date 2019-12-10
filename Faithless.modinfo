@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="98d99edb-9674-46c2-88ed-4a71238df3a1" version="1">
+  <Properties>
+    <Name>Faithless</Name>
+    <Description>All civilizations start with -25 faith.</Description>
+    <Teaser>All civilizations start with -25 faith.</Teaser>
+    <Authors>Kevin van Rijn</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <AddGameplayScripts id="NewAction">
+      <File priority="1">PlayerStartFaith.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>PlayerStartFaith.lua</File>
+  </Files>
+</Mod>
