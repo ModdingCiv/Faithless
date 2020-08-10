@@ -2,10 +2,9 @@
 <Mod id="98d99edb-9674-46c2-88ed-4a71238df3a1" version="1">
   <Properties>
     <Name>Faithless</Name>
-    <Description>All civilizations start with -25 faith.</Description>
-    <Teaser>All civilizations start with -25 faith.</Teaser>
+    <Description>All civilizations start with -30 faith, ticking up towards 0, and gained faith decays for the first 30 turns.</Description>
+    <Teaser>All civilizations start with -30 faith and faith decays.</Teaser>
     <Authors>Kevin van Rijn</Authors>
-    <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
   <InGameActions>
